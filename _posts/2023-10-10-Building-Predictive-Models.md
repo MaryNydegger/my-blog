@@ -3,7 +3,7 @@ Layout: post
 Title: "Data Science for Business - Building Predictive Models"
 Author: Mary Nydegger
 Description: Whether you're a seasoned data scientist or a business professional seeking actionable insights, this blog post is your guide to the fascinating world of predictive modeling. We'll explore how these sophisticated tools transform data into valuable predictions, empowering you to make well-informed choices that drive success in your field.
-Image: "/assets/images/PredictiveModels Large.jpeg"
+Image: /assets/images/PredictiveModels.jpeg
 ---
 
 
