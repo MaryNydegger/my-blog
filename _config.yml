@@ -23,7 +23,7 @@ email: marynyde@byu.edu
 description: "Information about different projects I am working on, as well as some how-to tutorials." 
 baseurl: "/my-blog" # the name of the repository 
 url: "https://marynydegger.github.io"
-image: "/assets/images/PredictiveModels.jpeg"
+image: https://attachment.eab.com/wp-content/uploads/2020/11/Illustration-BAF-Blog-Illustration-1-1000x700-1.png
 author: Mary Nydegger
 copyright: MN # Your initials or what you want the copyright to be.  Leave empty for no copyright
 # #footer_description: 'The default image for the site header is a random image from 
