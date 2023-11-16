@@ -51,5 +51,5 @@ Through the journey of compiling datasets, understanding pricing dynamics, and e
 
 The intertwined narratives discovered within the datasets not only shed light on the pricing disparities but also underscore the rich cultural and economic dimensions embedded within each car's origin. It has opened doors to further inquiries into market trends and consumer perceptions, laying the groundwork for future studies in automotive economics and consumer behavior.
 
-If you are interested in checking out my code and the data I used, you can find it in my [github repository]([https://statistics.byu.edu](https://github.com/MaryNydegger/386-EDA-Project.git)
+If you are interested in checking out my code and the data I used, you can find it in my [github repository](https://github.com/MaryNydegger/386-EDA-Project.git)
 
