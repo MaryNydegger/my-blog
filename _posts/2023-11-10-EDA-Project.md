@@ -3,7 +3,7 @@ Layout: post
 Title: "EDA Semester Project - Car Data Compilation Project"
 Author: Mary Nydegger
 Description: The aim of this project is to compile datasets related to automobiles. This involves gathering information on car prices (MSRP - Manufacturer's Suggested Retail Price) and mapping each car brand to its respective country of origin. How does the country of origin influence car pricing and market preferences?
-Image: assets/images/PredictiveModels.png
+Image: assets/images/Screen Shot 2023-11-16 at 1.47.53 PM.png
 ---
 
 
