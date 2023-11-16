@@ -7,74 +7,47 @@ Image: assets/images/Screen Shot 2023-11-16 at 1.47.53 PM.png
 ---
 
 
-In our data-centric world, making effective decisions requires more than just intuition and experience. Predictive models have emerged as indispensable tools, helping organizations and individuals unlock the potential hidden within their data. Whether you're a data scientist, a business analyst, or simply curious about the power of data, this blog post will take you on a journey through the fascinating realm of predictive modeling and how it can contribute to data-driven decisions.   
+Cars, more than just machines, carry stories that go beyond their wheels. In this project, I aim to gather data about car prices (MSRP - Manufacturer's Suggested Retail Price) and connect each car brand to where it comes from. The big question we're chasing: How does where a car is made affect how much it costs and what people prefer?
 
 
 
-## Understanding Predictive Models 
+### What We're Looking Into
 
-Predictive models are sophisticated algorithms that analyze historical data to make forecasts about future events or trends. They work by identifying patterns, relationships, and trends within the data, and then use these insights to make predictions. These models can be applied to various domains, from financial forecasting, to healthcare, marketing, and beyond.   
+We're diving into two main things: understanding how much cars cost and where they're from. First up, we're collecting info on car prices, trying to understand why different cars have different price tags.
 
-
-
-
-## The Building Blocks of Predictive Models
-
-To build a predictive model, you need three essential components:
-
-### Data:
-Quality data is the foundation of any predictive model. The more data you have, the better your model's predictions will be. It should be clean, well-organized, and relevant to the problem you want to solve. 
-### Algorithm: 
-Choosing the right algorithm depends on the type of problem you're tackling. Common algorithms include linear regression for predicting numerical values and decision trees for classification problems. Machine learning libraries like scikit-learn and TensorFlow provide a wide range of algorithms to choose from. 
-### Training and Testing:
-You'll need to split your data into training and testing sets. The training data is used to teach the model, while the testing data is used to evaluate its performance. This ensures your model can make accurate predictions on new, unseen data.   
+Then, we're mapping out where each car brand hails from. This part is about linking brands to their home countries to see if that has any impact on what people like or how much they're willing to pay.
 
 
 
+### The Big Question
 
-## The Model-Building Process 
+The main thing we're curious about: Does knowing where a car comes from tell us anything about how much people are willing to pay for it? We're trying to figure out if a car's home country affects its price and whether it influences what people prefer. This project is our journey into discovering these connections within the world of cars.
 
-The process of building a predictive model typically involves the following steps:
+### My Motivation
 
-### 1. Data Collection and preprocessing: 
-Gather data from reliable sources and clean it to remove noise, missing values, and outliers. 
-### 2. Feature Engineering:
-Identify and select relevant features (variables) that will be used for prediction. 
-### 3. Model Selection:
-Choose the appropriate algorithm for your problem and dataset.
-### 4. Training the Model:
-Feed the training data into the model, allowing it to learn from the historical data. 
-### 5. Evaluation:
-Use the testing data to assess the model's accuracy and performance. Common metrics include Mean Squared Error (MSE) for regression and accuracy for classification. 
-### 6. Fine-Tuning:
-Refine the model by adjusting parameters and optimizing its performance.   
+As I prepare to sell my car next semester, I've found myself deeply intrigued by the intricacies of car pricing. I've been delving into understanding why certain cars are given significantly higher prices than others in the market. This curiosity sparked a desire to compile data, seeking insights into the underlying factors that dictate these price variations. Exploring this not only satisfies my personal interest but also lays the groundwork for understanding the market dynamics that influence car values.
 
+## Data
+### Collection: 
+My data collection journey was a blend of online searches across various platforms like Wikipedia, Kaggle, and other specialized websites. I searched through these sources, sifting through numerous datasets to find the specific information I needed for my car-related project.
 
+Initially, I gathered multiple datasets from these sources, loading them into my environment for a comprehensive view. To enrich this dataset, I employed web scraping techniques to extract additional relevant information. This process ensured I had a wide array of data to analyze.
 
+### Cleaning:
+Upon gathering the data, the next step involved a meticulous examination of the datasets. I focused on aligning the columns and ensuring the correct formatting, a crucial step in preparing the datasets for merging. This standardization phase laid the groundwork for seamless merging and subsequent analysis.
 
-## Data-Driven Decision Making 
+One of the focal points during this stage was identifying and ensuring consistency in the columns containing car brand information. This was essential for my subsequent exploration into the origins of these car brands.
 
-Predictive models empower data-driven decision making in numerous ways. 
+While the process seemed straightforward, it involved sharp attention to detail and a substantial amount of effort sifting through numerous websites to locate the most suitable and easily accessible data for web scraping.  
 
-### Risk Assessment:
-Models can predict potential risks, enabling businesses to take proactive measures to mitigate them. 
-### Customer Insights:
-Analyzing customer data can help businesses tailor their products and marketing strategies to individual needs and preferences. 
-### Financial Forecasting:
-Accurate predictions can guide financial decisions, treatment planning, and patient outcome prediction.
-### Supply Chain Optimization:
-Businesses can optimize inventory levels, delivery routes, and production schedules.   
+### Ethical Considerations
 
+During web scraping, I prioritized ethical conduct by respecting website policies and terms of use. To prevent overloading servers, I implemented controlled scraping techniques, like rate limiting and request delays. I focused solely on gathering publicly available data relevant to the project's scope, ensuring no collection of sensitive or personal information. These measures ensured responsible and respectful data extraction while upholding website integrity.
 
-
+## EDA
 
 ## Conclusion 
+Through the journey of compiling datasets, understanding pricing dynamics, and exploring the origins of car brands, this project has helped me build more connections within the automotive landscape. It has offered a deeper understanding of consumer behavior and industry dynamics.
 
-Predictive models are indispensable tools in a data scientist's toolkit. They provide valuable insights and enable data-driven decision making, enhancing the quality and efficiency of your choices. As you delve deeper into the world of predictive modeling, remember that the key to success lies in understanding your data, selecting the right algorithms, and continually refining your models. By harnessing these powerful tools, you'll be better equipped to navigate the data-driven landscape and make more informed decisions in your field. 
-
-Ready to harness the power of predictive modeling for your data-driven decisions? 
-Start your journey by exploring real-world datasets, experimenting with algorithms, and sharing your insights with our community. Discover the endless possibilities that predictive modeling offers and get started today! 
-
-Watch this [video](https://www.youtube.com/watch?v=JOArz7wggkQ) for more information. 
-
+The intertwined narratives discovered within the datasets not only shed light on the pricing disparities but also underscore the rich cultural and economic dimensions embedded within each car's origin. It has opened doors to further inquiries into market trends and consumer perceptions, laying the groundwork for future studies in automotive economics and consumer behavior.
 
