@@ -44,10 +44,9 @@ While the process seemed straightforward, it involved sharp attention to detail 
 
 During web scraping, I prioritized ethical conduct by respecting website policies and terms of use. To prevent overloading servers, I implemented controlled scraping techniques, like rate limiting and request delays. I focused solely on gathering publicly available data relevant to the project's scope, ensuring no collection of sensitive or personal information. These measures ensured responsible and respectful data extraction while upholding website integrity.
 
-## EDA
 
 ## Conclusion 
-Through the journey of compiling datasets, understanding pricing dynamics, and exploring the origins of car brands, this project has helped me build more connections within the automotive landscape. It has offered a deeper understanding of consumer behavior and industry dynamics.
+You can see the actual result of my EDA in my next blog post (Cars)[]. Through the journey of compiling datasets, understanding pricing dynamics, and exploring the origins of car brands, this project has helped me build more connections within the automotive landscape. It has offered a deeper understanding of consumer behavior and industry dynamics.
 
 The intertwined narratives discovered within the datasets not only shed light on the pricing disparities but also underscore the rich cultural and economic dimensions embedded within each car's origin. It has opened doors to further inquiries into market trends and consumer perceptions, laying the groundwork for future studies in automotive economics and consumer behavior.
 
