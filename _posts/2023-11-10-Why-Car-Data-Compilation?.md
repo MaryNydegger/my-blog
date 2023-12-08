@@ -3,7 +3,7 @@ Title: "Car Pricing Data Collection (DC) "
 Author: Mary Nydegger
 Description: The aim of this project is to compile datasets related to automobiles. This involves gathering information on car prices (MSRP - Manufacturer's Suggested Retail Price) and mapping each car brand to its respective country of origin. How does the country of origin influence car pricing and market preferences?
 Layout: post
-Image: (/assets/lemoncar.png)
+Image: (/assets/images/lemoncar.png)
 
 github:
     is_project_page: true
@@ -19,7 +19,8 @@ date: 2023-12-7 17:50:00
 - [Data Collection](#data-collection)
 - [Data Cleaning](#data-cleaning)
 - [Data Building](#data-building)
-- [Acknowledgements](#acknowledgements-and-ethical-considerations)
+- [Conclusion](#conclusion)
+- [Ethical Considerations](#ethical-considerations)
 
 
 ### Overview
@@ -95,17 +96,22 @@ From here, I switched the variable type of the MSRP column so I could view the n
 
 After building the ascribed variables to analyze scripture data in greater detail, the dataset looks as follows:
 
+![Dataset1](/assets/images/Dataset1.png)
+![Dataset2](/assets/images/Dataset2.png)
+
+
+## Conclusion 
+As mentioned previously, you can see the actual result of my EDA in my next blog post (Cars)[]. The preparation for constructing this dataset was carefully completed. Exploring these car features in this part of my project as well as the EDA portion broadened my knowledge within the automotive landscape and gave me a deeper understanding of consumer behavior and industry dynamics. 
+
+If you are interested in checking out my code and the data I used, you can find it in my [github repository](https://github.com/MaryNydegger/386-EDA-Project.git)
 
 
 ### Ethical Considerations
 
-During web scraping, I prioritized ethical conduct by respecting website policies and terms of use. To prevent overloading servers, I implemented controlled scraping techniques, like rate limiting and request delays. I focused solely on gathering publicly available data relevant to the project's scope, ensuring no collection of sensitive or personal information. These measures ensured responsible and respectful data extraction while upholding website integrity.
+1. Data Privacy and Legality: I ensured that the data I scraped and collected from various sources was legally and ethically obtained, and I respected the terms of use of the websites I accessed.
+2. Bias and Fair Representation: I recognize that the Kaggle dataset could potentially have some biases in there as data was originally scraped from twitter. A next step would be doing this same project with a larger features table that I put together myself, with 100% confidence that it was unbiased and compare the results.
+3. Data Accuracy: I ensured that the data I collected was factual and up to date - specifically from the country of origins table.
+4. Avoiding Misinterpretation: As I have put together numbers (more specifically on the EDA page), I have been careful to highlight correlation, not causation. 
 
-
-## Conclusion 
-You can see the actual result of my EDA in my next blog post (Cars)[]. Through the journey of compiling datasets, understanding pricing dynamics, and exploring the origins of car brands, this project has helped me build more connections within the automotive landscape. It has offered a deeper understanding of consumer behavior and industry dynamics.
-
-The intertwined narratives discovered within the datasets not only shed light on the pricing disparities but also underscore the rich cultural and economic dimensions embedded within each car's origin. It has opened doors to further inquiries into market trends and consumer perceptions, laying the groundwork for future studies in automotive economics and consumer behavior.
-
-If you are interested in checking out my code and the data I used, you can find it in my [github repository](https://github.com/MaryNydegger/386-EDA-Project.git)
+These measures ensured responsible and respectful data extraction while upholding website integrity.
 
