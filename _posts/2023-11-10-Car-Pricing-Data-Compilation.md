@@ -3,7 +3,7 @@ Title: "Car Pricing Data Collection (DC) "
 Author: Mary Nydegger
 Description: The aim of this project is to compile datasets related to automobiles. This involves gathering information on car prices (MSRP - Manufacturer's Suggested Retail Price) and mapping each car brand to its respective country of origin. How does the country of origin influence car pricing and market preferences?
 Layout: post
-Image: [Cars](/assets/images/lemoncar.png)
+Image: (/assets/images/lemoncar.png)
 
 github:
     is_project_page: true
