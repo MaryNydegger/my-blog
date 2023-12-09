@@ -43,7 +43,7 @@ From these numbers, these are the questions that I am curious about.
 
 ## EDA
 
-### **What is the distribution of car prices in the dataset? **
+### What is the distribution of car prices in the dataset? 
 To answer this first question, I created a histogram comparing the prices and the frequency. It was originally extremely right skewed (as seen in Graph 1.1). Assuming this was due to a few outlier prices among the whole distribution (as mentioned above, the maximum car price i over $2million), I filtered the data to zoom in on the prices that had a higher frequency. Graph 1.2 shows the frequency of prices less than $300,000, and it is much more readable.
 
 #### Graph 1.1
@@ -54,7 +54,7 @@ To answer this first question, I created a histogram comparing the prices and th
 
 Most of the car's prices are below $50,000. The highest frequency of cars are around $30,000.
 
-### **How do car prices vary across different countries of origin? **
+### How do car prices vary across different countries of origin? 
 To answer this second question, I built boxplots for each country and the prices that are present for each of their models.
 
 #### Graph 2.1
@@ -69,7 +69,7 @@ From these numbers, it is clear that Japan, America, and Germany by far have the
 
 Graph 2.1 shows us that the price ranges for all the models for Germany, America, and Japan are all smaller than France's as well. Germany at about $500,000, America at about $200,000, and Japan around $400,000. France's price ranges differ at more than $500,000. This makes sense because there are significantly more models in the prior 3 countries when compared to France, so there would be many more prices. 
 
-### ** Is there a relationship between engine size and horsepower? **
+### Is there a relationship between engine size and horsepower? 
 In finding the answer to this question, I first ran this code to make a scatterplot. 
 
 ``` py
@@ -89,7 +89,7 @@ This wasn't a super intuitive graph, however, because Engine Size is not a conti
 
 The results of the boxplots also show that the average engine size and horsepower are positively correlated. The maximum and minimum horsepowers are a bit more volatile and not as consistent of an increase. This is noticeable in cars though as you see that random car models with a certain engine size could be made to have better horsepower, whereas some super nice models may not have as high of a horsepower. These are more outlier cases though, but the averages follow the expected trend. 
 
-### ** How does fuel efficiency vary across different car sizes? **
+### How does fuel efficiency vary across different car sizes? 
 These features were something I was very interested in, because in the ideal world, I would want a car with the best fuel efficiency. My current car has good MPG, especially when compared with my dad's truck. But i was curious if this trend was statistically significant across many models of different sizes. 
 
 There are so many different car models and sizes, that it was hard to view all the data without the visualization being very busy. However, I have decided to include it anyways because there are some helpful points to consider. 
@@ -99,13 +99,13 @@ There are so many different car models and sizes, that it was hard to view all t
 
 It is helpful to see that there is not a significant difference in the MPG as the vehicle size chnges. There are some lower and higher gas mileages for each vehicle size, as shown in the outliers for certain models. This is expected because there are some certain car brands that make a car that meets criteria to give it a better gas mileage. They may not be the safest cars, but they do exist. This is good information, but it taught me that vehicle size isn't the only reason I should choose a certain type of car if I am looking for good gas mileage. 
 
-### ** Which car brands are the most popular based on their market category? **
+### Which car brands are the most popular based on their market category? 
 Similar to the previous question, I had a hard time making a good visualization for this because of the high number of car brands and market categories, so every visualization I made looked too busy. But a good thing this shows us is how there are some car brands that make more market categories. Like Chevrolet, a very common and popular car brand, has many more lines (representing the market categories) than Cadillac does. Some brands have a greater variety of products. 
 
 #### Graph 5.1
 ![Graph5.1](/assets/images/TopCarBrands.png)
 
-### ** Follow Ups **
+### Follow Ups 
 
 **Fuel Efficiency Across Countries**
 Question 4 about the fuel efficiency lead me to wonder about the fuel efficiency across the countries, so I made boxplots again to view these trends. 
