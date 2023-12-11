@@ -47,7 +47,7 @@ From these numbers, these are the questions that I am curious about.
 ### What is the distribution of car prices in the dataset? 
 To answer this first question, I created a histogram comparing the prices and the frequency of each price among the different car observations. It was originally extremely right skewed (as seen in Graph 1.1). Assuming this was due to a few outlier prices among the whole distribution (as mentioned above with the maximum car price being over $2 million), I filtered the data to zoom in on the prices that had a higher frequency. Graph 1.2 shows the frequency of prices less than $300,000, and it is much more readable.
 
-![Graph1.1](/assets/images/Question1.png)
+![Graph1.1]({{site.url}}/{{site.baseurl}}/assets/images/Question1.png)
 #### Graph 1.1
 
 ![Graph1.2](/assets/images/Question1b.png)
