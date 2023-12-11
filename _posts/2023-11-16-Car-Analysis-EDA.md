@@ -50,7 +50,7 @@ To answer this first question, I created a histogram comparing the prices and th
 ![Graph1.1]({{site.url}}/{{site.baseurl}}/assets/images/Question1.png)
 #### Graph 1.1
 
-![Graph1.2](/assets/images/Question1b.png)
+![Graph1.2]({{site.url}}/{{site.baseurl}}/assets/images/Question1b.png)
 #### Graph 1.2
 
 Most of the car's prices are below $50,000. The highest frequency of car prices is around $30,000.
@@ -58,12 +58,12 @@ Most of the car's prices are below $50,000. The highest frequency of car prices 
 ### How do car prices vary across different countries of origin? 
 To answer this second question, I built boxplots for each country and the prices that are present for each of their models.
 
-![Graph2.1](/assets/images/prices-across-countries.png)
+![Graph2.1]({{site.url}}/{{site.baseurl}}/assets/images/prices-across-countries.png)
 #### Graph 2.1
 
 It was interesting to see how much higher the prices in France were compared to the other countries. When first running through the analysis, I assumed that it was because there are majorly higher prices in France, but it lead my to the follow up question of counting the number of car brands from each country, and this is what I found. 
 
-![Graph2.2](/assets/images/CarModelNumbers.png)
+![Graph2.2]({{site.url}}/{{site.baseurl}}/assets/images/CarModelNumbers.png)
 #### Graph 2.2
 
 From these numbers, it is clear that Japan, America, and Germany by far have the highest amount of car models, whereas France only has 3. Combining this understanding with what I saw in Graph 2.1, yes, France has the most expensive cars, but they also only have 3 car models that originated there, which must be more expensive models. Whereas Japan, America, and Germany have thousands of car models, and much more variety, which would explain having very different prices among these models. 
@@ -85,7 +85,7 @@ plt.show()
 
 This wasn't a super intuitive graph, however, because Engine Size is not a continuous variable, it is discrete. There was a noticeable trend that the higher horsepowers usually follow the higher engine size, but it still wasn't super clear, so instead, I created some boxplots that were more intuitive. 
 
-![Graph3.1](/assets/images/HPvsEngineSize.png)
+![Graph3.1]({{site.url}}/{{site.baseurl}}/assets/images/HPvsEngineSize.png)
 #### Graph 3.1
 
 The results of the boxplots also show that the average engine size and horsepower are positively correlated. The maximum and minimum horsepowers are a bit more volatile and not as consistent of an increase. This is noticeable in cars though as you see that random car models with a certain engine size could be made to have better horsepower, whereas some super nice models may not have as high of a horsepower. These are more outlier cases though, but the averages follow the expected trend. 
@@ -95,7 +95,7 @@ These features were something I was very interested in, because in the ideal wor
 
 There are so many different car models and sizes, that it was hard to view all the data without the visualization being very busy. However, I have decided to include it anyways because there are some helpful points to consider. 
 
-![Graph4.1](/assets/images/FuelEfficiency.png)
+![Graph4.1]({{site.url}}/{site.baseurl}}/assets/images/FuelEfficiency.png)
 #### Graph 4.1
 
 It is helpful to see that there is not a significant difference in the MPG as the vehicle size chnges. There are some lower and higher gas mileages for each vehicle size, as shown in the outliers for certain models. This is expected because there are some certain car brands that make a car that meets criteria to give it a better gas mileage. They may not be the safest or smartest cars to buy, but they do exist. This is good information, but it taught me that vehicle size isn't the only reason I should choose a certain type of car if I am looking for good gas mileage. 
@@ -103,7 +103,7 @@ It is helpful to see that there is not a significant difference in the MPG as th
 ### Which car brands are the most popular based on their market category? 
 Similar to the previous question, I had a hard time making a good visualization for this because of the high number of car brands and market categories, so every visualization I made looked too busy. But a good thing this shows us is how there are some car brands that make more market categories. Like Chevrolet, a very common and popular car brand, has many more lines (representing the market categories) than Cadillac does. Some brands have a greater variety of products. 
 
-![Graph5.1](/assets/images/TopCarBrands.png)
+![Graph5.1]({{site.url}}/{{site.baseurl}}/assets/images/TopCarBrands.png)
 #### Graph 5.1
 
 ### Follow Ups 
@@ -111,7 +111,7 @@ Similar to the previous question, I had a hard time making a good visualization 
 **Fuel Efficiency Across Countries**
 Question 4 about the fuel efficiency lead me to wonder about the fuel efficiency across the countries, so I made boxplots again to view these trends. 
 
-![Graph6.1](/assets/images/FuelEfficiencyTrends.png)
+![Graph6.1]({{site.url}}/{{site.baseurl}}/assets/images/FuelEfficiencyTrends.png)
 #### Graph 6.1
 
 I was hoping to see more drastic differences across each of the countries, but the average city MPG does not change very much across the countries. An interesting thing to note though (from the follow up in question 2 about the number of models originating in each country) is the amount of outliers for Germany, America, and Japan - which both have the highest number of car models originating there. Because there are so many models, if a new brand wants to gain traction among consumers, they need to improve the model in some way, so they could improve the feature of gas mileage to gain interest among the population of car buyers. 
@@ -119,7 +119,7 @@ I was hoping to see more drastic differences across each of the countries, but t
 **Performance Accross Country of Origin**
 Finally, all of this lead me to look into the horse power and engine size by country. 
 
-![Graph7.1](/assets/images/Grid.png)
+![Graph7.1]({{site.url}}/{{site.baseurl}}/assets/images/Grid.png)
 #### Graph 7.1
 
 I liked what I saw in this visualization, specifically the differences among the amount of engine cylinders per country. Germany has the widest spread between the minimum and maximum amount of cylinders, where France has the smallest range. 
@@ -140,6 +140,6 @@ My car I am seeking to sell is a 2011 Honda CRV. My highway MPG is about 27, and
 All data used was publicly made available. Part of the data was downloaded from Kaggle, and the other part from a website off of google. See my previous blog post about data collection to read further about the ethical considerations made. 
 
 
-If you are interested in checking out my code and the data I used, you can find it in my [github repository](https://github.com/MaryNydegger/386-EDA-Project.git)
+If you are interested in checking out my code and the data I used, you can find it in my [github repository](https://github.com/MaryNydegger/386-EDA-Project.git) .
 
 
