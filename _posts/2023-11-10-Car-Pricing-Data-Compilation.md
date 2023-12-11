@@ -100,7 +100,7 @@ After building the ascribed variables to analyze scripture data in greater detai
 ## Conclusion 
 As mentioned previously, you can see the actual result of my EDA in my next blog post [Car Analysis EDA](https://marynydegger.github.io/my-blog/2023/11/16/Car-Analysis-EDA.html). The preparation for constructing this dataset was carefully completed. Exploring these car features in this part of my project as well as the EDA portion broadened my knowledge within the automotive landscape and gave me a deeper understanding of consumer behavior and industry dynamics. 
 
-If you are interested in checking out my code and the data I used, you can find it in my [github repository](https://github.com/MaryNydegger/386-EDA-Project.git)
+If you are interested in checking out my code and the data I used, you can find it in my [github repository](https://github.com/MaryNydegger/386-EDA-Project.git). 
 
 
 ### Ethical Considerations
