@@ -93,8 +93,8 @@ From here, I switched the variable type of the MSRP column so I could view the n
 
 After building the ascribed variables to analyze scripture data in greater detail, the dataset looks as follows:
 
-![Dataset1](/assets/images/Dataset1.png)
-![Dataset2](/assets/images/Dataset2.png)
+![Dataset1]({{site.url}}/{{site.baseurl}}/assets/images/Dataset1.png)
+![Dataset2]({{site.url}}/{{site.baseurl}}/assets/images/Dataset2.png)
 
 
 ## Conclusion 
