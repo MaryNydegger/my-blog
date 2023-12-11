@@ -3,7 +3,7 @@ Layout: post
 Title: "EDA Semester Project"
 Author: Mary Nydegger
 Description: My EDA journey through car data showcased compelling visualizations, unraveling nuanced insights into pricing, correlations, fuel efficiency, and market trends, enriching the narrative of automobile dynamics.
-Image: "/assets/images/NiceCar.png"
+Image: ![IntroPic]({{site.url}}/{{site.baseurl}}/assets/images/NiceCar.png)
 
 date: 2023-12-07 12:00:00
 ---
