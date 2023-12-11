@@ -95,7 +95,7 @@ These features were something I was very interested in, because in the ideal wor
 
 There are so many different car models and sizes, that it was hard to view all the data without the visualization being very busy. However, I have decided to include it anyways because there are some helpful points to consider. 
 
-![Graph4.1]({{site.url}}/{site.baseurl}}/assets/images/FuelEfficiency.png)
+![Graph4.1]({{site.url}}/{{site.baseurl}}/assets/images/FuelEfficiency.png)
 #### Graph 4.1
 
 It is helpful to see that there is not a significant difference in the MPG as the vehicle size chnges. There are some lower and higher gas mileages for each vehicle size, as shown in the outliers for certain models. This is expected because there are some certain car brands that make a car that meets criteria to give it a better gas mileage. They may not be the safest or smartest cars to buy, but they do exist. This is good information, but it taught me that vehicle size isn't the only reason I should choose a certain type of car if I am looking for good gas mileage. 
