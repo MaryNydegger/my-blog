@@ -89,8 +89,6 @@ merged_df
 
 From here, I switched the variable type of the MSRP column so I could view the numbers and get ready for the EDA portion (See my [next blog post](https://marynydegger.github.io/my-blog/2023/11/16/Car-Analysis-EDA.html) if you are interested in the further analysis).
 
-[EDA post](https://jxnpass.github.io/2023/12/06/IsaiahToBOM-EDA.html)
-
 #### Final Output
 
 After building the ascribed variables to analyze scripture data in greater detail, the dataset looks as follows:
