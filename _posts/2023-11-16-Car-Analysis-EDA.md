@@ -130,7 +130,9 @@ This streamlit dashboard makes it easy to look at the car features, car models, 
 [Streamlit](https://car-pricing-analysis.streamlit.app)
 
 ## Conclusion
-In summary, I thought that this analysis through car data offered helpful insights into pricing, correlations, fuel efficiency, and market trends. For the most part, it confirmed what I had seen throughout my experience with driving and buying cars. This analysis did prompt me with further curiosity around fuel efficiency across countries and performance variations based on origin. My car I am seeking to sell is a 2011 Honda CRV. So in response to my motivation of what I should sell it for, 
+In summary, I thought that this analysis through car data offered helpful insights into pricing, correlations, fuel efficiency, and market trends. For the most part, it confirmed what I had seen throughout my experience with driving and buying cars. This analysis did prompt me with further curiosity around fuel efficiency across countries and performance variations based on origin. 
+
+My car I am seeking to sell is a 2011 Honda CRV. My highway MPG is about 27, and 180 Engine HP. So in response to my motivation of what I should sell it for, my streamlit app would show it to come out to $22,705 using that first visualization. However, that seems much higher than what it is worth, given that it is a very used car. I would sell it for somewhere between $5,000 - $10,000. This brings up another piece of the project that could be interesting to dive into in the future, prices for used cars!
 
 
 ### Ethical Considerations
