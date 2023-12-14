@@ -98,7 +98,7 @@ There are so many different car models and sizes, that it was hard to view all t
 ![Graph4.1]({{site.url}}/{{site.baseurl}}/assets/images/FuelEfficiency.png)
 #### Graph 4.1
 
-It is helpful to see that there is not a significant difference in the MPG as the vehicle size chnges. There are some lower and higher gas mileages for each vehicle size, as shown in the outliers for certain models. This is expected because there are some certain car brands that make a car that meets criteria to give it a better gas mileage. They may not be the safest or smartest cars to buy, but they do exist. This is good information, but it taught me that vehicle size isn't the only reason I should choose a certain type of car if I am looking for good gas mileage. 
+It is helpful to see that there is not a significant difference in the MPG as the vehicle size changes. There are some lower and higher gas mileages for each vehicle size, as shown in the outliers for certain models. This is expected because there are some certain car brands that make a car that meets criteria to give it a better gas mileage. They may not be the safest or smartest cars to buy, but they do exist. This is good information, but it taught me that vehicle size isn't the only reason I should choose a certain type of car if I am looking for good gas mileage. 
 
 ### Which car brands are the most popular based on their market category? 
 Similar to the previous question, I had a hard time making a good visualization for this because of the high number of car brands and market categories, so every visualization I made looked too busy. But a good thing this shows us is how there are some car brands that make more market categories. Like Chevrolet, a very common and popular car brand, has many more lines (representing the market categories) than Cadillac does. Some brands have a greater variety of products. 
@@ -127,10 +127,15 @@ I liked what I saw in this visualization, specifically the differences among the
 ## Dashboard
 This streamlit dashboard makes it easy to look at the car features, car models, and countries of origin. As well as the price for these different features as well.
 
-[Streamlit](https://car-pricing-analysis.streamlit.app)
+[Streamlit](https://386-eda-project-ezx58p5ulqwrha2ands5eh.streamlit.app/)
 
 ## Conclusion
 In summary, I thought that this analysis through car data offered helpful insights into pricing, correlations, fuel efficiency, and market trends. For the most part, it confirmed what I had seen throughout my experience with driving and buying cars. This analysis did prompt me with further curiosity around fuel efficiency across countries and performance variations based on origin. 
+
+This analysis helped me realize just how many features are involved in deciding which cars to buy, and deciding the prices of cars to sell. This lead me to a lot more questions or things that I would love to visualize more in my streamlit app. I made one comparing the MPG for the different sizes of different makes of cars. It would be interesting to combine this with the MSRP and look at the prices of these. Overall, here are some key take aways:
+- The maximum car price from my data is over $2 million, and is from a car originating in France. This seemed extremely high at first and I wondered if it was an outlier. Looking on [this website](https://luxe.digital/lifestyle/garage/most-expensive-cars/), we see that there is a car originating in France for $2.3 million, called the Delage D12. This isn't a car I have in my current dataset, but many very expensive cars exist, so this might not be an outlier. Moral of the story: there are few cars sold from France, but when they are sold from France, they are very expensive. And these very expensive cars have one of the lowest fuel efficiencies across the models in the different countries. 
+- When buying a new car, most prices are between $20,000 and $50,000. When selling a used car, your prices should definitely be lower than this if you want to have any traction in the market.
+- The average horsepower increases as the engine size increases. However, the minimum horsepower does not always increase. I would love to dive deeper and find these specific models that have higher engine size but lower horse powers than average.
 
 My car I am seeking to sell is a 2011 Honda CRV. My highway MPG is about 27, and 180 Engine HP. So in response to my motivation of what I should sell it for, my streamlit app would show it to come out to $22,705 using that first visualization. However, that seems much higher than what it is worth, given that it is a very used car. I would sell it for somewhere between $5,000 - $10,000. This brings up another piece of the project that could be interesting to dive into in the future, prices for used cars!
 
