@@ -35,7 +35,12 @@ I focused on using two popular supervised models: Logistic Regression and Random
 ### Wording
 I first looked at the components that made up a negative or positive review, and it was very interesting because the words that were most commonly used in both reviews did not differ very much. This first graph shows the 10 most used words in both reviews (removing the common stop words), and they are practically the same. 
 
-![WordingPositive]({{site.url}}/{{site.baseurl}}/assets/images/Question1.png)
+![WordingPositive]({{site.url}}/{{site.baseurl}}/assets/images/WordingBars.png)
+![WordingNegative]({{site.url}}/{{site.baseurl}}/assets/images/WordingBarsNegative.png)
+
+Moving further into the analysis, I used dimension reduction to view these components more and see if there were further patterns or clusters. Surprisingly there wasn't. 
+
+
 
 ### Logistic Regression Model
 The logistic regression model is known for its simplicity. When looking at how it performed 
